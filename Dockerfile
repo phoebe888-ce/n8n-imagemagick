@@ -1,5 +1,6 @@
 FROM n8nio/n8n:1.105.4
 
 USER root
-RUN apt-get update && apt-get install -y imagemagick
+RUN apk update && apk add --no-cache imagemagick
+
 USER node
