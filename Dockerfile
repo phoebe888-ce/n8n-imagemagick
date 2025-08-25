@@ -9,4 +9,3 @@ RUN apt-get update && \
     ln -sf /usr/bin/convert /usr/local/bin/magick || true
 
 USER node
-
